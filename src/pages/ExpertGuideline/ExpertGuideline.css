@@ -1,0 +1,13 @@
+.expert-area-inner {
+  padding: 40px 0;
+}
+.expert-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.expert-career-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+}
