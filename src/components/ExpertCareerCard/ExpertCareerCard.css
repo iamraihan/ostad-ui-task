@@ -1,5 +1,5 @@
 .career-guide-card {
-  background: #475467;
+  background: #1d2939;
   border-radius: 4px;
   position: relative;
 }
@@ -42,4 +42,23 @@
   display: grid;
   place-items: center;
   cursor: pointer;
+}
+.line {
+  border-bottom: 1px solid #475467;
+  margin: 8px 0;
+}
+
+.instructor-wrapper {
+  display: flex;
+  gap: 16px;
+}
+.instructor-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+.instructor-expertise {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
 }
