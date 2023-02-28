@@ -1,0 +1,30 @@
+.navbar-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.menu-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.language-wrapper {
+  display: flex;
+  align-items: center;
+}
+.login-btn {
+  padding: 8px 24px;
+  background: #fffbee;
+  border: 1px solid #ffc000;
+  border-radius: 6px;
+}

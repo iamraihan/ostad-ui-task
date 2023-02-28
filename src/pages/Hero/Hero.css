@@ -1,0 +1,21 @@
+.hero-inner {
+  padding-top: 33px;
+  display: flex;
+  gap: 24px;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  margin-bottom: 24px;
+}
+
+.hero-subtitle {
+  color: #1d2939;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 154.3%;
+  max-width: 584px;
+}
