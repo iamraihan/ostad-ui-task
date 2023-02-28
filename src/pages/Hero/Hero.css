@@ -14,8 +14,51 @@
 
 .hero-subtitle {
   color: #1d2939;
-  margin-bottom: 24px;
   font-size: 16px;
   line-height: 154.3%;
   max-width: 584px;
+}
+.course-btn-wrapper {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+.live-course-btn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  background: #e9efff;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.hero-assesment-btn-wrapper {
+  display: flex;
+  margin-top: 24px;
+  gap: 16px;
+}
+.hero-btn {
+  padding: 12.5px 24px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #101828;
+}
+.hero-btn-2 {
+  padding: 12.5px 54.5px;
+}
+
+/* media queries  */
+@media (max-width: 640px) {
+  .hero-inner {
+    flex-wrap: wrap;
+  }
+  .hero-title {
+    font-size: 26px;
+  }
+  .hero-assesment-btn-wrapper {
+    flex-wrap: wrap;
+  }
+  .hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }

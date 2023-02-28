@@ -28,3 +28,9 @@
   border: 1px solid #ffc000;
   border-radius: 6px;
 }
+
+@media (max-width: 640px) {
+  .menu-list {
+    display: none;
+  }
+}
