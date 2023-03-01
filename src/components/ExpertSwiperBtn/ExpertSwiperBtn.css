@@ -11,11 +11,11 @@
 }
 
 .expert-swiper-prev-btn {
-  top: 0;
-  left: 0;
+  top: 50%;
+  right: 0;
 }
 .expert-swiper-next-btn {
   z-index: 10;
-  top: 0;
+  top: 50%;
   left: 0;
 }

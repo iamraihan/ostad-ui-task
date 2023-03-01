@@ -3,22 +3,17 @@ import ExpertCareerCard from "../../components/ExpertCareerCard/ExpertCareerCard
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
 import "./ExpertGuideline.css";
-
-// import required modules
 import { Navigation, Pagination } from "swiper";
 import ExpertSwiperBtn from "../../components/ExpertSwiperBtn/ExpertSwiperBtn";
 
 const ExpertGuideline = () => {
-  // const navigationNextRef = useRef(null);
-  // const navigationPrevRef = useRef(null);
   return (
     <div className="bg-dark slide-wrapper">
-      <div className=" expert-area-inner container">
+      <div className=" expert-area-inner slider-container">
         <div className="expert-title-wrapper">
           <div>
             <img src={expertBook} alt="" />
@@ -66,18 +61,7 @@ const ExpertGuideline = () => {
               <SwiperSlide>
                 <ExpertCareerCard />
               </SwiperSlide>
-              <SwiperSlide>
-                <ExpertCareerCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <ExpertCareerCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <ExpertCareerCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <ExpertCareerCard />
-              </SwiperSlide>
+
               <ExpertSwiperBtn />
             </Swiper>
           </div>

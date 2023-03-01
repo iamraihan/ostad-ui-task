@@ -1,0 +1,26 @@
+.footer-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.download-ostad {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.social-icon-wrapper {
+  display: flex;
+  gap: 8px;
+}
+.social-icon {
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+  .footer-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

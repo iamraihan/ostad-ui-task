@@ -6,7 +6,6 @@ import rightNavigationBtn from "../../assets/images/expert-career-guideline/righ
 
 const ExpertSwiperBtn = () => {
   const swiper = useSwiper();
-  console.log(swiper);
   return (
     <div className="swiper-btns">
       <button

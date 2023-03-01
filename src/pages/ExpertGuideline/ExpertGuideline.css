@@ -3,7 +3,7 @@
 } */
 
 .slider-container {
-  max-width: 1300px;
+  max-width: 1250px;
   margin: 0 auto;
   /* padding-left: 80px !important;
   padding-right: 80px !important; */
@@ -28,14 +28,23 @@
 /* swiper css  */
 
 .expertSwiper {
-  /* padding-left: 49px;
-  padding-right: 49px; */
+  padding-left: 23px;
+  padding-right: 23px;
   /* position: relative; */
 }
+
 /* .swiper-container {
   position: relative;
 } */
 .swiper-contianer {
   position: relative;
   min-width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+  .expertSwiper {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
