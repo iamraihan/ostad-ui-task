@@ -53,4 +53,7 @@
     flex-wrap: wrap;
     gap: 16px;
   }
+  .join-comunity-cta-btn {
+    font-size: 12px;
+  }
 }

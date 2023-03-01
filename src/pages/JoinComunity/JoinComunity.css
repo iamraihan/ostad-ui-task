@@ -11,4 +11,16 @@
 .join-comunity-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* swiper  */
+/* custom css for grid  */
+.swiper-grid-column > .swiper-wrapper {
+  flex-direction: unset !important;
+}
+
+/* this line can be write in html too  */
+.swiper-slide {
+  margin-top: 50px !important;
 }
