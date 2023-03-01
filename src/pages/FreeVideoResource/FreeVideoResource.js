@@ -61,7 +61,6 @@ const FreeVideoResource = () => {
             </Swiper>
           </div>
         </>
-        {/* <FreeVideoResourceCard /> */}
       </div>
     </div>
   );
