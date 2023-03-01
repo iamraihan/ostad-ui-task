@@ -20,6 +20,7 @@ const OstadCareer = () => {
           স্কিল ডেভেলপ করুন দেশের সেরা ইন্সট্রাক্টরদের সাথে, ক্লিক করুন নিচের
           বাটনে।
         </p>
+        <div className="bottom-border"></div>
         <div className="live-course-wrapper">
           <div>
             <img src={liveIcon} alt="" />
@@ -28,7 +29,24 @@ const OstadCareer = () => {
         </div>
       </div>
       <div className="courses-list-card">
-        <CoursesCard />
+        <div>
+          <CoursesCard />
+        </div>
+        <div>
+          <CoursesCard />
+        </div>
+        <div>
+          <CoursesCard />
+        </div>
+        <div>
+          <CoursesCard />
+        </div>
+        <div>
+          <CoursesCard />
+        </div>
+        <div>
+          <CoursesCard />
+        </div>
       </div>
     </div>
   );

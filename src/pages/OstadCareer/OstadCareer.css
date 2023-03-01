@@ -18,3 +18,18 @@
   gap: 8px;
   margin-top: 45px;
 }
+.courses-list-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 31.5px;
+}
+.bottom-border {
+  border-bottom: 1px solid #eaecf0;
+  margin-top: 5px;
+}
+/* Media Queries */
+@media (max-width: 640px) {
+  .courses-list-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
