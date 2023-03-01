@@ -1,5 +1,17 @@
+.slide-wrapper {
+  position: relative;
+}
+
+.slider-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  /* padding-left: 80px !important;
+  padding-right: 80px !important; */
+}
+
 .expert-area-inner {
-  padding: 40px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .expert-title-wrapper {
   display: flex;
@@ -15,26 +27,46 @@
 
 /* swiper css  */
 
-.expertSwiper .swiper-button-prev:after,
+.expertSwiper {
+  /* padding-left: 49px;
+  padding-right: 49px; */
+}
+.swiper-container {
+  position: relative;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
   content: url("../../assets/images/expert-career-guideline/left-navigation.svg");
 }
-.expertSwiper .swiper-button-next:after,
+.swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
   content: url("../../assets/images/expert-career-guideline/right-navigation.svg");
 }
 
-.expertSwiper .swiper-button-prev {
-  left: calc(75% - 40px);
+.swiper-button-prev {
+  left: calc(4% - 40px);
   margin-bottom: 12px;
 }
-.expertSwiper .swiper-button-next {
-  right: calc(17% - 40px);
+.swiper-button-next {
+  right: calc(4% - 40px);
   margin-bottom: 12px;
 }
-.expertSwiper .swiper-button-prev,
-.expertSwiper .swiper-button-next {
-  /* top: unset !important; */
+.swiper-button-prev,
+.swiper-button-next {
+  top: unset !important;
   bottom: 0px;
   position: absolute;
 }
