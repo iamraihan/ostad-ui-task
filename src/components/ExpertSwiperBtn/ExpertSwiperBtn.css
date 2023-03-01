@@ -19,3 +19,15 @@
   top: 50%;
   left: 0;
 }
+
+/* Media Queries */
+@media (max-width: 640px) {
+  .expert-swiper-prev-btn {
+    bottom: -152px;
+    right: 16px;
+  }
+  .expert-swiper-next-btn {
+    bottom: -152px;
+    left: 174px;
+  }
+}

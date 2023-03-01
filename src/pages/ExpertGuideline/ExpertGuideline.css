@@ -36,9 +36,32 @@
 /* .swiper-container {
   position: relative;
 } */
-.swiper-contianer {
-  position: relative;
-  min-width: 100%;
+.swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+/* pagination css  */
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+.swiper-pagination-bullet {
+  background: #d0d5dd;
+  width: 8px;
+  height: 8px;
+}
+.swiper-pagination-bullet-active {
+  background: #ffab00;
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -5px;
+  left: -83px;
+  width: 100%;
 }
 
 /* Media Queries */
