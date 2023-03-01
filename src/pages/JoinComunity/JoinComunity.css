@@ -1,0 +1,14 @@
+.join-comunity {
+  background: #f9f9fa;
+}
+.join-comunity-inner {
+  margin-bottom: 40px;
+}
+.join-comunity-wrapper {
+  margin-top: 40px;
+}
+
+.join-comunity-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
