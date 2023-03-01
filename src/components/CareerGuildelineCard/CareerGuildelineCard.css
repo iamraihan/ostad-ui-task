@@ -1,0 +1,29 @@
+.career-guideline-card {
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+}
+.reading-test-img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.reading-test-card-wrapper {
+  padding: 16px 15px;
+}
+.reading-test-card-duration {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.reading-test-duration {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #475467;
+}
+.reading-test-card-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #475467;
+}

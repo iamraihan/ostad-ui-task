@@ -1,4 +1,5 @@
 import React from "react";
+import CareerGuideline from "../CareerGuideline/CareerGuideline";
 import ExpertGuideline from "../ExpertGuideline/ExpertGuideline";
 import FreeVideoResource from "../FreeVideoResource/FreeVideoResource";
 import Hero from "../Hero/Hero";
@@ -19,6 +20,7 @@ const Home = () => {
       <JoinComunity />
       <IndustryExperts />
       <TrustedCompanies />
+      <CareerGuideline />
     </div>
   );
 };

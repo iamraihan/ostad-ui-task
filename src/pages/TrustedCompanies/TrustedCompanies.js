@@ -18,14 +18,14 @@ const TrustedCompanies = () => {
             grid={{
               rows: 1,
             }}
-            spaceBetween={24}
+            spaceBetween={0}
             pagination={{
               clickable: true,
             }}
             breakpoints={{
               640: {
                 slidesPerView: 1.2,
-                spaceBetween: 24,
+                spaceBetween: 0,
                 grid: {
                   rows: 1,
                 },
