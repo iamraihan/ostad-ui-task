@@ -11,23 +11,23 @@
 }
 
 .expert-swiper-prev-btn {
-  top: 50%;
+  top: 43%;
   right: 0;
 }
 .expert-swiper-next-btn {
   z-index: 10;
-  top: 50%;
+  top: 43%;
   left: 0;
 }
 
 /* Media Queries */
 @media (max-width: 640px) {
   .expert-swiper-prev-btn {
-    bottom: -152px;
+    bottom: -206px;
     right: 16px;
   }
   .expert-swiper-next-btn {
-    bottom: -152px;
-    left: 174px;
+    bottom: -206px;
+    left: 216px;
   }
 }

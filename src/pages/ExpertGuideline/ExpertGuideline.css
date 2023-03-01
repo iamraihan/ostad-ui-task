@@ -37,7 +37,7 @@
   position: relative;
 } */
 .swiper-wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 /* pagination css  */
@@ -69,5 +69,9 @@
   .expertSwiper {
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .slider-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 }
