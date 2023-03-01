@@ -12,3 +12,29 @@
   font-size: 26px;
   line-height: 130%;
 }
+
+/* swiper css  */
+
+.expertSwiper .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: url("../../assets/images/expert-career-guideline/left-navigation.svg");
+}
+.expertSwiper .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: url("../../assets/images/expert-career-guideline/right-navigation.svg");
+}
+
+.expertSwiper .swiper-button-prev {
+  left: calc(75% - 40px);
+  margin-bottom: 12px;
+}
+.expertSwiper .swiper-button-next {
+  right: calc(17% - 40px);
+  margin-bottom: 12px;
+}
+.expertSwiper .swiper-button-prev,
+.expertSwiper .swiper-button-next {
+  /* top: unset !important; */
+  bottom: 0px;
+  position: absolute;
+}
