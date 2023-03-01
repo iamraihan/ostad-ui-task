@@ -37,8 +37,8 @@ const ExpertGuideline = () => {
                 clickable: true,
               }}
               // navigation={{
-              //   nextEl: ".swiper-button-next",
-              //   prevEl: ".swiper-button-prev",
+              //   nextEl: ".button-next-slide",
+              //   prevEl: ".button-prev-slide",
               // }}
               breakpoints={{
                 "@0.00": {
@@ -89,6 +89,8 @@ const ExpertGuideline = () => {
               <SwiperSlide>
                 <ExpertCareerCard />
               </SwiperSlide>
+              {/* <div className="button-next-slide">next</div>
+              <div className="button-prev-slide">prev</div> */}
               <ExpertSwiperBtn />
             </Swiper>
           </div>

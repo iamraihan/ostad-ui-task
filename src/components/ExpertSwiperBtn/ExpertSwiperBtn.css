@@ -1,0 +1,21 @@
+.swiper-btns button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.expert-swiper-prev-btn,
+.expert-swiper-next-btn {
+  position: absolute;
+  z-index: 10;
+}
+
+.expert-swiper-prev-btn {
+  top: 0;
+  left: 0;
+}
+.expert-swiper-next-btn {
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
