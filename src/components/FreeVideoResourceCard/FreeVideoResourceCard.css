@@ -38,7 +38,11 @@
 }
 .video-play-icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 11%;
+  left: 24%;
   cursor: pointer;
+}
+.cross-btn-dark {
+  background: #101828 !important;
+  color: #ffffff !important;
 }
