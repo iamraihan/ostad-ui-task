@@ -23,7 +23,7 @@ const ExpertCareerCard = () => {
               {showPopup && (
                 <div className="popup-video ">
                   <iframe
-                    width="560"
+                    width="300"
                     height="315"
                     src="https://www.youtube.com/embed/4L7e54TIM-0?autoplay=1"
                     title="Rick Astley - Never Gonna Give You Up (Video)"

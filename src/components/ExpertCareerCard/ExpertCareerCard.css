@@ -26,8 +26,8 @@
 
 .popup-video {
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: -30px;
+  left: 0;
 }
 
 .popup-cross-btn {
