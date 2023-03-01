@@ -28,9 +28,24 @@
   border: 1px solid #ffc000;
   border-radius: 6px;
 }
-
+.hamburger {
+  display: none;
+}
 @media (max-width: 640px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 25px;
+  }
+  .navbar-item-wrapper {
+    flex-direction: column;
+  }
   .menu-list {
+    position: absolute;
+    flex-direction: column;
+  }
+  .hidden {
     display: none;
   }
 }
