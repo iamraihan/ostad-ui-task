@@ -31,29 +31,18 @@ const ExpertGuideline = () => {
         <>
           <div className="swiper-container">
             <Swiper
-              slidesPerView={1}
+              slidesPerView={1.3}
               spaceBetween={10}
               pagination={{
                 clickable: true,
               }}
-              // navigation={{
-              //   nextEl: ".button-next-slide",
-              //   prevEl: ".button-prev-slide",
-              // }}
               breakpoints={{
-                "@0.00": {
-                  slidesPerView: 1,
+                640: {
+                  slidesPerView: 1.5,
                   spaceBetween: 10,
                 },
-                "@0.75": {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                "@1.00": {
-                  slidesPerView: 3,
-                  spaceBetween: 40,
-                },
-                "@1.50": {
+
+                1024: {
                   slidesPerView: 4,
                   spaceBetween: 24,
                 },
@@ -89,8 +78,6 @@ const ExpertGuideline = () => {
               <SwiperSlide>
                 <ExpertCareerCard />
               </SwiperSlide>
-              {/* <div className="button-next-slide">next</div>
-              <div className="button-prev-slide">prev</div> */}
               <ExpertSwiperBtn />
             </Swiper>
           </div>

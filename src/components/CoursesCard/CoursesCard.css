@@ -1,0 +1,21 @@
+.card-inner-area {
+  background: #1d2939;
+}
+.card-btn-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+}
+.batch-btn {
+  padding: 4px 8px;
+  background: #101828;
+  border-radius: 4px;
+}
+.batch-seat-btn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+}

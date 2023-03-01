@@ -1,0 +1,20 @@
+.ostad-career {
+  padding: 64px 0;
+}
+.ostad-title-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+.ostad-expert-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154.3%;
+}
+.live-course-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 45px;
+}

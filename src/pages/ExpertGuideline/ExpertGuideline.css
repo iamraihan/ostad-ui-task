@@ -35,3 +35,7 @@
 /* .swiper-container {
   position: relative;
 } */
+.swiper-contianer {
+  position: relative;
+  min-width: 100%;
+}
